@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Utopo = void 0;
 var constants_1 = require("./constants");
 var Utopo;
 (function (Utopo) {
@@ -16,5 +17,6 @@ var Utopo;
         };
         return SDK;
     }());
-})(Utopo || (Utopo = {}));
+    Utopo.SDK = SDK;
+})(Utopo = exports.Utopo || (exports.Utopo = {}));
 //# sourceMappingURL=index.js.map

@@ -1,12 +1,12 @@
 import { ServerURL } from './constants';
 
-namespace Utopo{
+export namespace Utopo{
     interface Config{
         appid:string;
         callback:string;
     }
 
-    class SDK{
+    export class SDK{
         appid:string;
         callback:string;
         code:string;

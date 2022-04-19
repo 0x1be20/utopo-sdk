@@ -13,9 +13,9 @@ npm install utopo-sdk
 #### 初始化
 
 ```
-import utopo from 'utopo-sdk'
+import {Utopo} from 'utopo-sdk'
 
-let sdk = utopo({
+let sdk = Utopo.SDK({
     appid:'xxxxxx',
     callback:'http://xxxx'
 })
